@@ -1,7 +1,9 @@
 # Simply.js
+
 Simply.js is a collection of functions to make life easier.
 
 ## Usage
+
 Download the script or the minified version:
 
 * [https://github.com/janlindblom/simplyjs/blob/develop/js/simply.js](simply.js)
@@ -14,8 +16,10 @@ Call it from your HTML thusly:
 ```
 
 Or:
+
 ```html
 <script src="https://github.com/janlindblom/simplyjs/blob/develop/js/simply.min.js"></script>
 ```
+
 ## License
 Simply.js is licensed under the [COPYING.md](BSD license). You're welcome.
