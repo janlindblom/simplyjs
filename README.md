@@ -22,4 +22,4 @@ Or:
 ```
 
 ## License
-Simply.js is licensed under the [COPYING.md](BSD license). You're welcome.
+Simply.js is licensed under the BSD license. You're welcome.
