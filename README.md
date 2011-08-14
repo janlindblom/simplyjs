@@ -2,6 +2,14 @@
 
 Simply.js is a collection of functions to make life easier.
 
+## Contents
+
+* getStaticGoogleMap - puts a static Google map in a DIV of your choice. Takes the following parameters:
+ * String coords
+ * String sizingDiv
+ * String targetDiv
+ * String linkto
+
 ## Usage
 
 Download the script or the minified version:
