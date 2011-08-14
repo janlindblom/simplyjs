@@ -5,13 +5,14 @@
 // https://github.com/janlindblom/simplyjs
 //
 // This file is released under the BSD license.
+//
+// @version 1.0
 
 // ==ClosureCompiler==
 // @compilation_level SIMPLE_OPTIMIZATIONS
 // @output_file_name simply.min.js
 // ==/ClosureCompiler==
 
-//
 // getStaticGoogleMap - Insert static Google maps into an HTML page.
 //
 // @param coords - Coordinates where map will center and the marker be placed.
@@ -22,7 +23,6 @@
 //                    Example: 'mapDiv'
 // @param linkto - An URL where to link when the map is clicked.
 //                 Example: 'http://maps.google.com/'
-//
 function getStaticGoogleMap(coords,sizingDiv,targetDiv,linkto) {
 	var geoloc = coords;
 	var linkurl = linkto;
