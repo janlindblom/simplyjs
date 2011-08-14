@@ -14,8 +14,8 @@ Simply.js is a collection of functions to make life easier.
 
 Download the script or the minified version:
 
-* [https://github.com/janlindblom/simplyjs/blob/develop/js/simply.js](simply.js)
-* [https://github.com/janlindblom/simplyjs/blob/develop/js/simply.min.js](simply.min.js)
+* [https://github.com/janlindblom/simplyjs/blob/master/js/simply.js](simply.js)
+* [https://github.com/janlindblom/simplyjs/blob/master/js/simply.min.js](simply.min.js)
 
 Call it from your HTML thusly:
 
@@ -26,7 +26,7 @@ Call it from your HTML thusly:
 Or:
 
 ```html
-<script src="https://github.com/janlindblom/simplyjs/blob/develop/js/simply.min.js"></script>
+<script src="https://github.com/janlindblom/simplyjs/blob/master/js/simply.min.js"></script>
 ```
 
 ## License
