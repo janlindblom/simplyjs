@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta charset="utf-8" />
+	<meta http-equiv="x-ua-compatible" content="ie=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+	<meta name="author" content="Jan Lindblom" />
+	<meta name="copyright" content="Licensed under BSD." />
+	<meta name="description" content="Simply.js contains some handy JavaScript functions designed to make life easier." />
+	<title>Simply.js</title>
+	<link href="css/grid.css" media="screen" rel="stylesheet" type="text/css" />
+	<script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Anonymous+Pro:400,400italic,700,700italic:latin,latin-ext' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })();
+	</script>
+    <style type="text/css">
+	.wf-loading body {
+		font-family: "Helvetica Neue", Helvetica, sans-serif;
+	}
+	.wf-inactive body {
+		font-family: "Helvetica Neue", Helvetica, sans-serif;
+	}
+	.wf-active body {
+		font-family: 'Anonymous Pro', 'Helvetica Neue', Helvetica, sans-serif;
+	}
+	.wf-active code {
+		font-family: 'Anonymous Pro', 'Courier New', Courier, monospace;
+		font-weight: bold;
+		color: #030;
+	}
+	
+	body {
+		font-size: 14px;
+	}
+
+	.top-menu li {
+		display: inline-block;
+	}
+	.top-menu li a  {
+		font-weight: bold;
+		display: block;
+		text-decoration: none;
+	}
+	#footer {
+		position:fixed;
+		left:4%;
+		bottom:0px;
+		height:40px;
+		width:92%;
+	}
+
+	/* IE 6 */
+	* html #footer {
+		position:absolute;
+		top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+	}
+    </style>
+</head>
+<body>
+	<div class="container container_6">
+	<div class="grid_6">
+	<header>
+		<nav>
+			<ul class="top-menu">
+				<li><a href="index.html">Demo</a></li>
+				<li><a href="https://github.com/janlindblom/simplyjs" target="_blank">GitHub</a></li>
+			</ul>
+		</nav>
+	</header>
+	</div>
+	<div class="grid_6">
+	<div class="grid_4 alpha">
+	<section>
+		<article>
+			<header>
+				<h2>Simply.js Demo</h2>
+			</header>
+			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+		</article>
+		<article>
+			<header>
+				<h3>Box-constrained static Google map</h3>
+			</header>
+			<p>This is the <code>getStaticGoogleMap</code> function. It takes the following arguments:</p>
+			<ul>
+				<li>coords - center coordinates for the map</li>
+				<li>sizingDiv - a <code>div</code> to use as base of map size</li>
+				<li>targetDiv - a <code>div</code> in which to put the map</li>
+				<li>linkto - an URL where the map will link when clicked</li>
+			</ul>
+			<form action="#" method="post">
+			<label for="addr">Enter an address:</label>
+			<input type="text" name="addr" />
+			<input type="button" value="Center Map" />
+</form></p>
+	</section>
+	</div>
+	<div class="grid_2 omega">
+	<aside>
+		<h2>About</h2>
+		<p>Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+	</aside>
+	</div>
+	</div>
+	<div id="footer" class="grid_6">
+	<footer>
+		<p>Copyright &copy; 2011 Jan Lindblom</p>
+	</footer>
+	</div>
+	</div>
+</body>
+</html>
