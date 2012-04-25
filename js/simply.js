@@ -6,7 +6,7 @@
 //
 // This file is released under the BSD license.
 //
-// @version 1.0
+// @version 1.1
 
 // ==ClosureCompiler==
 // @compilation_level SIMPLE_OPTIMIZATIONS
@@ -40,14 +40,12 @@ function getStaticGoogleMap(coords,sizingDiv,targetDiv,linkto) {
 	var height = width - Math.round(width / 4);
 	var showheight = height;
 	var showwidth = width;
+    var size = width + 'x' + height;
 
 	// Handle higher device pixel ratios (iPhone 4 has 2, Nexus S has 1.5)
-	var multiplier = window.devicePixelRatio;
-	if (retina) {
-		width = width * multiplier;
-		height = height * multiplier;
-	}
-	var size = width + 'x' + height;
+    if (retina) {
+        size = size + '&scale=2';
+    }
 
 	// Insert the map into the HTML
 	document.getElementById(targetDiv).innerHTML = '<a href="'+linkurl+'" target="_blank"><img width="'+showwidth+'" height="'+showheight+'" style="width: '+showwidth+'px; height: '+showheight+'px;" src="'+urlbase+geoloc+urlrest+size+urltail+geoloc+'" alt="Map" /></a>';
